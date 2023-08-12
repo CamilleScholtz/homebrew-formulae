@@ -4,8 +4,8 @@ cask "mmpsp" do
   homepage "https://github.com/CamilleScholtz/mmpsp"
 
   version "0.2"
-  url "https://github.com/CamilleScholtz/mmpsp/archive/refs/tags/v#{version}.zip"
-  sha256 "7d50c205e866848f92052d1a9a7830ab98633b448aeb193eb9175bf1eea3c89e"
+  url "https://github.com/CamilleScholtz/mmpsp/releases/download/v#{version}/mmpsp.app.zip"
+  sha256 "cce160c88719a0109992b4b1c8084f05e466cb593b28363b2923f268089c3c2d"
 
   app "mmpsp.app"
 end
